@@ -6,6 +6,8 @@
 Aplicación web desarrollada con **Spring Boot, JPA/Hibernate, Thymeleaf y MySQL** que
 gestiona las habitaciones y reservas de un hotel.
 
+🌐 **Demo en producción:** [https://hotel-engelnieves.up.railway.app/](https://hotel-engelnieves.up.railway.app/)
+
 ---
 
 ## 📋 Descripción del proyecto
@@ -35,7 +37,7 @@ La aplicación permite:
 ### 1 · Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/hotel-engelnieves.git
+git clone https://github.com/engelnieves/hotel-engelnieves.git
 cd hotel-engelnieves
 ```
 
@@ -51,12 +53,12 @@ Esto creará la base de datos `hotel_db` con las tablas necesarias.
 
 ### 3 · Configurar `application.properties`
 
-Abre `src/main/resources/application.properties` y ajusta las credenciales locales:
+Abre `src/main/resources/application.properties` y ajusta las credenciales de tu entorno local:
 
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/hotel_db?useSSL=false&serverTimezone=UTC
-spring.datasource.username=TU_USUARIO_MYSQL
-spring.datasource.password=TU_CONTRASEÑA_MYSQL
+spring.datasource.username=root
+spring.datasource.password=tu_contraseña
 ```
 
 ### 4 · Ejecutar la aplicación
@@ -71,9 +73,9 @@ Abre el navegador en: **http://localhost:8080/inicio**
 
 ## 🌐 Despliegue en Railway
 
-URL pública: **https://hotel-engelnieves.up.railway.app/**
+La aplicación está desplegada y accesible en:
 
-*(Añade aquí tu URL una vez generada en Railway → Settings → Networking → Generate Domain)*
+👉 **https://hotel-engelnieves.up.railway.app/**
 
 ---
 
@@ -120,12 +122,6 @@ hotel-engelnieves/
 | POST   | `/altaHabitacion`     | Guardar nueva habitación         |
 | GET    | `/altaReserva`        | Formulario de alta de reserva    |
 | POST   | `/altaReserva`        | Guardar nueva reserva            |
-
----
-
-## 📸 Capturas de pantalla
-
-> *(Añade capturas de las páginas principales una vez ejecutes la aplicación)*
 
 ---
 
