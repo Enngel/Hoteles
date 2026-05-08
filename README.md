@@ -6,7 +6,7 @@
 Aplicación web desarrollada con **Spring Boot, JPA/Hibernate, Thymeleaf y MySQL** que
 gestiona las habitaciones y reservas de un hotel.
 
-🌐 **Demo en producción:** [https://hotel-engelnieves.up.railway.app/](https://hoteles-production-0bf1.up.railway.app)
+🌐 **Demo en producción:** [https://hoteles-production-0bf1.up.railway.app](https://hoteles-production-0bf1.up.railway.app)
 
 ---
 
@@ -37,8 +37,8 @@ La aplicación permite:
 ### 1 · Clonar el repositorio
 
 ```bash
-git clone https://github.com/engelnieves/hotel-engelnieves.git
-cd hotel-engelnieves
+git clone https://github.com/Enngel/Hoteles.git
+cd Hoteles
 ```
 
 ### 2 · Ejecutar el script SQL
@@ -75,14 +75,14 @@ Abre el navegador en: **http://localhost:8080/inicio**
 
 La aplicación está desplegada y accesible en:
 
-👉 **https://hotel-engelnieves.up.railway.app/**
+👉 **https://hoteles-production-0bf1.up.railway.app**
 
 ---
 
 ## 🗂️ Estructura del proyecto
 
 ```
-hotel-engelnieves/
+Hoteles/
 ├── schema.sql                     # Script de creación de la BD
 ├── system.properties              # Java 17 para Railway
 ├── pom.xml
