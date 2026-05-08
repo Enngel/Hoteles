@@ -6,7 +6,7 @@
 Aplicación web desarrollada con **Spring Boot, JPA/Hibernate, Thymeleaf y MySQL** que
 gestiona las habitaciones y reservas de un hotel.
 
-🌐 **Demo en producción:** [https://hotel-engelnieves.up.railway.app/](https://hotel-engelnieves.up.railway.app/)
+🌐 **Demo en producción:** [https://hotel-engelnieves.up.railway.app/](hoteles-production-0bf1.up.railway.app)
 
 ---
 
