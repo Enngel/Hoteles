@@ -40,4 +40,8 @@ build/
 
 ### Application ###
 *.jar
+
+### Credenciales y entorno local ###
+.env
+*.env
 application-local.properties
